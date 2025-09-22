@@ -13,3 +13,5 @@ NOTES
 
 • unzip the font zip
 
+• must execute in Live Server.
+
