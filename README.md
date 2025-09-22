@@ -5,5 +5,6 @@ I might do some edits some time
 Spiritfarer-themed Memory Card Game (for webdev midterm lab activity)
 
 --TAKE NOTE-- 
-• must create folder named "Spiritfarer" !
-• unzip the font zip plz
+• must create folder named "Spiritfarer" insert most of the images in that folder!
+• unzip the font zip
+
