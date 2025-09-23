@@ -9,8 +9,6 @@ Spiritfarer-themed Memory Card Game (for webdev midterm lab activity)
 
 NOTES
 
-• must create folder named "Spiritfarer" insert most of the images in that folder!
-
 • unzip the font zip
 
 • must execute in Live Server.
