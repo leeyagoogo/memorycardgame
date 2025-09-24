@@ -12,7 +12,6 @@ fetch("card.json")
   .then(data => {
     allCards = data;
 
-
     for (let i = 0; i < 5; i++) {
       cards.push(allCards[i], allCards[i]);
     }
@@ -41,6 +40,7 @@ function generateCards() {
     cardElement.innerHTML = `
       <div class="front">
         <img class="front-image" src="${card.image}" />
+        <div class="label">${card.name}</div>
       </div>
       <div class="back"></div>`;
 
@@ -78,6 +78,17 @@ function disableCards() {
   secondCard.removeEventListener("click", flipCard);
 
   resetBoard();
+
+  const allFlipped = [...document.querySelectorAll(".card")].every(card =>
+    card.classList.contains("flipped")
+  );
+
+  if(allFlipped){
+    setTimeout(() => {
+      alert("🎉 You won! All cards have been matched!");
+
+    },500);
+  }
 }
 
 function unflipCards() {
