@@ -12,10 +12,10 @@ fetch("card.json")
   .then(data => {
     allCards = data;
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 4; i++) {
       cards.push(allCards[i], allCards[i]);
     }
-    currentCount = 5;
+    currentCount = 4;
     shuffleCards();
     generateCards();
   });
